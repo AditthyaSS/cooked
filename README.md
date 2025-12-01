@@ -1,4 +1,15 @@
-🎧 Cooked — Roast Based on Your Spotify History
+![Cooked Banner](https://dummyimage.com/1200x300/000/1DB954&text=Cooked+-+Roast+My+Spotify)
+
+
+**🎧 Cooked — Roast Based on Your Spotify History**
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js" />
+  <img src="https://img.shields.io/badge/Spotify%20API-1DB954?style=for-the-badge&logo=spotify&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI%20API-412991?style=for-the-badge&logo=openai" />
+  <img src="https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Made%20By-Aditthya%20Varma-red?style=for-the-badge" />
+</p>
+
 
 Cooked is a fun web app that roasts users based on their Spotify listening habits.
 Login with Spotify → app fetches your recently played tracks → AI generates a short toxic roast (Hindi/English depending on your taste 😭🔥).
@@ -6,8 +17,11 @@ Login with Spotify → app fetches your recently played tracks → AI generates 
 Built with:
 
 Next.js 16
+
 Spotify Web API
+
 OpenAI (or Groq optional)
+
 TailwindCSS
 
 Ngrok (for local OAuth)
@@ -98,13 +112,86 @@ OPENAI_API_KEY	⚠ Optional	For AI roasting
 🛑 Security Warning
 
 Do NOT upload .env.local to GitHub.
+
 Do NOT share your Spotify or OpenAI keys.
+
 Do NOT commit ngrok tokens.
 
-🤝Thanks for Contributing
+# Contributing to Cooked
+
+Create a file named:
+
+CONTRIBUTING.md
+
+Paste this
+
+Thank you for your interest in contributing! ❤️  
+Cooked is a fun open-source project that roasts people based on their Spotify taste.
+
+## 🛠 How to Contribute
+
+### 1. Fork the Repository
+Click the **Fork** button on GitHub and clone your fork:
+
+
+git clone https://github.com/YOUR_USERNAME/cooked.git
+
+cd cooked
+
+
+### 2. Create a New Branch
+Always create a feature branch:
+
+
+git checkout -b feature/your-feature-name
+
+
+### 3. Install Dependencies
+
+
+npm install
+
+
+### 4. Add Your Changes
+Write clean, readable code.
+Follow the project structure.
+
+### 5. Commit Message Style
+Use this format:
+
+
+feat: added new roast model
+fix: spotify scope issue
+docs: updated README
+
+
+### 6. Push to Your Fork
+
+
+git push origin feature/your-feature-name
+
+
+### 7. Create a Pull Request
+Go to the main repo → **Pull Requests** → **New PR**
+
+---
+
+## 🎯 Contribution Rules
+
+- No sensitive keys pushed (Spotify/OpenAI/ngrok)
+- Keep roasts funny but safe (no offensive or sexual content)
+- Don’t break the UI
+- Keep commit history clean
+
+---
+
+## ❤️ Thank You
+
+Your contributions help make Cooked even more fun!
 
 PRs welcome.
 Roasts welcome too. 😭🔥
 
 📜 License
 MIT
+
